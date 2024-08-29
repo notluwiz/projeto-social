@@ -45,3 +45,22 @@ iframe#tela {
     
 }
 
+section#contato {
+    text-align: right;
+}
+
+section#contato img {
+    width: 50px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.589);
+    box-sizing: border-box;
+}
+
+section#contato img:hover {
+    border: 2px solid rgba(255, 255, 255, 0.418);
+    transform: translate(-5px, 5px);
+    box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.548);
+    transition: transform 0.4s;
+}
+
